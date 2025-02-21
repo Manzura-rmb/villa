@@ -1,0 +1,157 @@
+:root {
+  --textcolor: #b4b5b6;
+  --iconscolor: #f55224;
+  --divbackground: #f3f3f3;
+}
+
+
+@media only screen and (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+
+  /*greeting*/
+  .greeting-text {
+    padding: 200px 0 200px 100px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+
+  /*header-nav*/
+  .section-titles {
+    column-gap: 60px;
+  }
+
+  /*properties*/
+  .properties-blogs {
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1150px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .container {
+    width: 1300px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+
+  /*greeting*/
+  .greeting-text {
+    padding: 150px 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  /*nav*/
+  .section-titles {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .right-div i {
+    display: inline-block;
+  }
+
+  .right-div i:hover .section-titles {
+    display: inline-block;
+  }
+
+  /*greeting*/
+  .greeting-section h2 {
+    font-size: 45px;
+  }
+
+  /*properties*/
+  .properties-blogs {
+    grid-template-columns: 100%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+
+  /*nav*/
+  .nav {
+    display: none;
+  }
+
+  /*header-nav*/
+  .logo h1 {
+    font-size: 25px;
+  }
+
+  .section-titles {
+    column-gap: 10px;
+  }
+
+  /*featured*/
+  .featured .container {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  .featured .container>div {
+    width: 100%;
+  }
+
+  /*statistics*/
+  .statistics {
+    flex-direction: column;
+    row-gap: 30px;
+    padding-top: 100px;
+  }
+
+  /*best-deal*/
+  .deal-top-text {
+    flex-direction: column;
+  }
+
+  .deal-top-text .top-texts {
+    text-align: center;
+  }
+
+  .deal-buttons {
+    justify-content: center;
+  }
+
+  .main-deals {
+    flex-direction: column;
+    row-gap: 40px;
+    padding-top: 80px;
+  }
+
+  .main-deals>div {
+    width: 100%;
+  }
+
+  .contact, .contact-communicate>div{
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  .contact>div,
+  .communicate {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:1200px) {}
