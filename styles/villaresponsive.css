@@ -1,0 +1,255 @@
+:root {
+  --textcolor: #b4b5b6;
+  --iconscolor: #f55224;
+  --divbackground: #f3f3f3;
+}
+
+
+@media only screen and (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  /*greeting*/
+  .greeting-text {
+    padding: 200px 0 200px 100px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+
+  /*header-nav*/
+  .section-titles {
+    column-gap: 60px;
+  }
+
+  /*properties*/
+  .properties-blogs {
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1150px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .container {
+    width: 1300px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  /*greeting*/
+  .greeting-text {
+    padding: 150px 20px;
+  }
+
+  /*featured-section*/
+  .featured-img a {
+    width: 80px;
+    height: 80px;
+  }
+
+  .featured-img a img {
+    width: 40px;
+  }
+
+  .top-texts h6 {
+    font-size: 12px;
+  }
+
+  .top-texts h2 {
+    font-size: 30px;
+  }
+
+  .featured-btn button {
+    font-size: 14px;
+  }
+
+  .icons-item h4,
+  .info-box h3,
+  .short-details h6,
+  .communicate h6 {
+    font-size: 18px;
+  }
+
+  .icons-item p,
+  .short-details .div span,
+  .short-details li {
+    font-size: 12px;
+  }
+
+  .featured-icons {
+    padding: 8px 30px;
+  }
+
+  .featured-icons .icons-item {
+    padding: 20px 0;
+  }
+
+  .statistics>div>div {
+    padding: 15px 25px;
+    width: 220px;
+  }
+
+  .statistics p,
+  .short-details>a {
+    font-size: 14px;
+  }
+
+  .statistics h1,
+  .communicate i {
+    font-size: 30px;
+  }
+
+  .empty-div {
+    width: 36px;
+    height: 36px;
+    top: -18px;
+    right: -18px;
+  }
+
+  .best-deal-items {
+    column-gap: 10px;
+  }
+
+  .blog,
+  .communicate {
+    padding: 20px;
+  }
+
+  .communicate p {
+    padding-top: 7px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /*nav*/
+  .section-titles {
+    display: none;
+  }
+
+  .section-titles li:nth-child(5) {
+    display: none;
+  }
+
+  .right-div {
+    position: relative;
+  }
+
+  .right-div i {
+    display: inline-block;
+    right: 0;
+  }
+
+  /*greeting*/
+  .greeting-section h2 {
+    font-size: 45px;
+  }
+
+  /*properties*/
+  .properties-blogs {
+    grid-template-columns: 100%;
+  }
+
+  .best-deal-items {
+    width: 100%;
+    padding: 0;
+  }
+
+  .best-deal-items li {
+    flex: 30%;
+    padding: 12px 8px;
+  }
+
+  .best-deal-items a {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  /*nav*/
+  .nav {
+    display: none;
+  }
+
+  /*header-nav*/
+  .logo h1 {
+    font-size: 25px;
+  }
+
+  .section-titles {
+    column-gap: 10px;
+  }
+
+  .section-titles li {
+    font-size: 14px;
+  }
+
+  /*featured*/
+  .featured .container {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  .featured .container>div {
+    width: 100%;
+  }
+
+  /*statistics*/
+  .statistics {
+    flex-direction: column;
+    row-gap: 30px;
+    padding-top: 100px;
+  }
+
+  /*best-deal*/
+  .deal-top-text {
+    flex-direction: column;
+  }
+
+  .deal-top-text .top-texts {
+    text-align: center;
+  }
+
+  .deal-buttons {
+    justify-content: center;
+  }
+
+  .main-deals {
+    flex-direction: column;
+    row-gap: 40px;
+    padding-top: 80px;
+  }
+
+  .main-deals>div {
+    width: 100%;
+  }
+
+  .contact,
+  .contact-communicate>div {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  .contact>div,
+  .communicate {
+    width: 100%;
+  }
+}
